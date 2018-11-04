@@ -57,7 +57,8 @@ python crawler.py -b 看板名稱 -a 文章ID
 
 ```commandline
 cd PttWebCrawler
-python crawler.py -b PublicServan -i 100 200
+python crawler.py -b PublicServan -i 1 2
+python jsonTocsv.py -f PublicServan-1-2.json
 ```
     
 * 呼叫 package
